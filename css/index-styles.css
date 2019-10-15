@@ -7,34 +7,69 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.encabezado{
-width: 100%;
-padding: 50px;
-background-color: aquamarine;
-color: black;
+
+.container-logo-search{
+  background-color: #f1f1e9;
+  display: flex;
 
 }
-
-.contenido-principal{
-    width: 100%;
-    background-color: blueviolet;
-    overflow: hidden;
-
-
+.container-logo-search{
+  min-height: 150px;
 }
-.left{
-    width: 70%;
-    float: left;
-    background-color: rgba(109, 0, 0, 0);
-    color: white;
+.logo-search{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  padding: 10px;
+  width:100%;
+}
+.logo-tagline{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.logo-tagline img{
+  width: 100px;
+  margin-right: 20px;
+}
+.logo-tagline h1{
+  font-size: 1.2rem;
+  color: grey;
+}
+.search-form input[type="text"]{
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  border:
+}
+.container-banner{
+  background: url(../images/bg-isometric-grid.png) repeat;
+  background-position: top left;
+}
+.banner-top{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.right-banner img{
+  width: 100%;
+}
+
+@media screen and (min-width:768px){
+  .container-logo-search{
+    min-height: 100px;
+  }
+  .logo-search{
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  .banner-top{
+    flex-direction: row;
     padding: 20px;
-
-}
-.right{
-    width: 30%;
-    float: left;
-    background-color: brown;
-    color: white;
-    padding: 20px;
-
+  }
+  .left-banner{
+    padding: 10px;
+    font-size: 1.3rem;
+  }
 }

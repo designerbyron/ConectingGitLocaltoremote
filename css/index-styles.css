@@ -56,6 +56,70 @@
   width: 100%;
 }
 
+.left-content{
+  flex: 1 0 70%;
+  border-right: 1px solid grey;
+}
+.right-content{
+  flex: 1 0 30%
+}
+.icon-left{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #888;
+  margin-right: 10px;
+
+}
+.container-links{
+  width: 50%;
+  height: 100px;
+  padding: 20px 5px;
+  /* background-color: #999; */
+  display: flex;
+  align-items: flex-start;
+}
+
+.contenido-main{
+  display: flex;
+  padding: 20px 0;
+
+}
+.main-links{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+.container-links{
+  flex-grow: 50%;
+}
+.container-cover img{
+  width: 50px;
+  margin-right: 10px;
+}
+.book-git{
+  display:flex;
+  margin-top: 20px;
+}
+.monitor img{
+  margin:0 auto;
+}
+.more-platforms{
+  padding: 10px;
+}
+.platforms{
+  list-style: none;
+  display: flex;
+}
+.platforms li{
+ width: 50%;
+ flex-wrap: nowrap;
+}
+.platforms li a{
+display: block;
+}
+
 @media screen and (min-width:768px){
   .container-logo-search{
     min-height: 100px;
